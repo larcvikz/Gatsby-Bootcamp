@@ -1,7 +1,6 @@
 import React from 'react'
-import Helmet from 'react-helmet'
 import { Link } from 'gatsby'
-import myScript from '../../static/myScript'
+import myScript from '../myscript/myScript'
 
 import Layout from '../components/layout'
 import Head from '../components/head'
