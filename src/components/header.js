@@ -1,5 +1,4 @@
 import React from 'react'
-import Helmet from 'react-helmet'
 import { withPrefix, Link, graphql, useStaticQuery} from 'gatsby'
 
 
@@ -17,9 +16,6 @@ const Header = () =>{
     `)
 
     return(
-        <Helmet>
-            <script src ={withPrefix('myScript.js')} type="text/javascript" />    
-        </Helmet>
         <header className={headerStyles.header}>
             <nav>
                 <h1>
