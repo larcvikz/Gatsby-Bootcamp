@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link, graphql, useStaticQuery} from 'gatsby'
+import { withPrefix, Link, graphql, useStaticQuery} from 'gatsby'
 
 
 import headerStyles from './header.module.scss'
@@ -16,6 +16,9 @@ const Header = () =>{
     `)
 
     return(
+        <Helmet>
+            <script src ={withPrefix('myScript.js')} type="text/javascript" />    
+        </Helmet>
         <header className={headerStyles.header}>
             <nav>
                 <h1>
