@@ -10,7 +10,6 @@ const HomePage = () => {
             <Head title="Home" />
             <h1>Hi.</h1>
             <h2>I`m KejuCoklat, send message from nice beautifull town called Tokyo.</h2>
-            <p><Link to="/about">About Me.</Link></p>
         </Layout>
     )
 }
