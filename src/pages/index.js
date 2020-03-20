@@ -1,6 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
-import myScript from '../myscript/myScript'
 
 import Layout from '../components/layout'
 import Head from '../components/head'
