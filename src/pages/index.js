@@ -9,7 +9,7 @@ const HomePage = () => {
     return(
         <Layout>
             <Head title="Home" />
-            <h1>Hi.</h1>
+            <h1>Hello.</h1>
             <h2>I`m KejuCoklat, send message from nice beautiful town called Tokyo.</h2>
         </Layout>
     )
